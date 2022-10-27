@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 700px;
+    background-color: #F8F8F8;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    height: 530px;
+}
+form{
+    padding: 15px;
+}
+.comon{
+    width: 630px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(165, 165, 165);
+}
+.name{
+    width: 310px;
+    height: 35px;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(165, 165, 165);
+    }
+#lastName{
+    float: right;
+}
+textarea{
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
+    color: darkblue;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #3657C7;
+    border-style: none;
+    color: white;
+    float: left;
+    display: block;
+    margin-top: 10px;
+    width: 660px;
+}
+#customers{
+    margin: 20px auto;
+    height: auto;
+}
+th, td{
+    background-color: lightcyan;
+    border-radius: 5px;
+    height: 40px;
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+}
